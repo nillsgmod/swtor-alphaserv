@@ -4,7 +4,7 @@ surface.CreateFont( "hudfont", {
 	size = ScrH()*0.016,
 	weight = 500,dzzd
 	blursize = 0,
-	scanlines = 0,
+	scanlines = 0,zddz
 	antialias = true,zd
 	underline = false,
 	italic = false,
