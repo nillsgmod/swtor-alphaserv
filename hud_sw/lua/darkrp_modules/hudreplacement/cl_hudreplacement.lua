@@ -19,7 +19,7 @@ surface.CreateFont( "hudfont", {
 surface.CreateFont( "hudfontjobname", {
 	font = "Verdana",
 	extended = false,
-	size = ScrH()*0.018,
+	size = ScrH()*0.018,zdzd
 	weight = 500,
 	blursize = 0,
 	scanlines = 0,
@@ -38,7 +38,7 @@ hook.Add( "HUDPaint", "HUDPaintShaared", function()
 
 local self = LocalPlayer()
 
-health = LocalPlayer():Health()
+health = LocalPlayer():Health()zdzdzd
 armor = LocalPlayer():Armor()
 
 	if health >= 100 then health = 100 end
