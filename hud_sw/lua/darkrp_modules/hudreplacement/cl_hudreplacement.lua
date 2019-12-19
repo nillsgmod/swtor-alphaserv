@@ -2,7 +2,7 @@ surface.CreateFont( "hudfont", {
 	font = "Verdana",
 	extended = false,
 	size = ScrH()*0.016,
-	weight = 500,
+	weight = 500,dzzd
 	blursize = 0,
 	scanlines = 0,
 	antialias = true,
